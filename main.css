@@ -1,0 +1,85 @@
+.section-title {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #5B7BF0;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #2450ee;
+}
+
+#cabecalho .nav .nav-link, .navbar-brand, .navbar-brand:hover, 
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #99aef8;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+.text-colored {
+    color: #6E789B;
+}
+
+.text-colored2 {
+    color: #2450ee;
+}
+
+.carousel-item img {
+    height: 600px;
+    width: 1600px;
+}
+
+#sobre-a-loja {
+    background-image: linear-gradient(#466aee57, #ffffff);
+}
+
+#sobre-a-loja li {
+    font-weight: bold;
+}
+
+.nav-cardapio .nav-link.active, 
+#fale-conosco button {
+    background-color: #2450ee;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #2450ee;
+}   
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.tab-pane img {
+   height: 300px;
+}
+
+#fale-conosco {
+    background-image: linear-gradient(#fff,#466aee57);
+}
+
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+        width: 400px;
+    }
+
+    .tab-pane img {
+        height: 400px;
+     }
+}
