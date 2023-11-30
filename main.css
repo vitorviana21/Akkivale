@@ -37,6 +37,7 @@
     width: 1600px;
 }
 
+
 #sobre-a-loja {
     background-image: linear-gradient(#466aee57, #ffffff);
 }
@@ -72,6 +73,18 @@
     background-image: linear-gradient(#fff,#466aee57);
 }
 
+.error-message {
+    color: red;
+}
+
+.error-input {
+    border: 2px solid red;
+}
+
+.success-message {
+    color: green;
+}
+
 
 @media (max-width: 767px) {
     .carousel-item img {
@@ -81,5 +94,9 @@
 
     .tab-pane img {
         height: 400px;
+     }
+
+     .carousel-caption h2 {
+        font-size: 18px;
      }
 }
